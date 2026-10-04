@@ -8,11 +8,11 @@
 <text x="64" y="448" fill="#a5b6cb" font-size="23">Four ways to explore</text>
 <text x="64" y="482" fill="#a5b6cb" font-size="23">how questions shape responses.</text>
 <path d="M64 594H1216" stroke="#304058"/>
-<text x="64" y="645" fill="#a5b6cb" font-size="19">Versioned stimuli</text><text x="444" y="645" fill="#a5b6cb" font-size="19">Accessible, untimed tasks</text><text x="951" y="645" fill="#a5b6cb" font-size="19">Delayed debriefs</text>
+<text x="64" y="645" fill="#a5b6cb" font-size="19">Versioned stimuli</text><text x="444" y="645" fill="#a5b6cb" font-size="19">Untimed interaction</text><text x="951" y="645" fill="#a5b6cb" font-size="19">Delayed debriefs</text>
 <g fill="#162337" stroke="#31435c"><rect x="640" y="170" width="270" height="176" rx="14"/><rect x="934" y="170" width="270" height="176" rx="14"/><rect x="640" y="370" width="270" height="176" rx="14"/><rect x="934" y="370" width="270" height="176" rx="14"/></g>
-<g font-size="17" fill="#e5eef9" font-weight="700"><text x="668" y="309">Anchoring</text><text x="962" y="309">Framing</text><text x="668" y="509">Defaults</text><text x="962" y="509">Rule testing</text></g>
+<g font-size="17" fill="#e5eef9" font-weight="700"><text x="668" y="309">Anchoring</text><text x="962" y="309">Framing</text><text x="668" y="509">Reference points</text><text x="962" y="509">Rule testing</text></g>
 <path d="M674 242H874M773 216V265" stroke="#8ccedc" stroke-width="3"/><circle cx="773" cy="242" r="13" fill="#9ce8ee"/>
 <g fill="none" stroke="#ad9de2" stroke-width="3"><circle cx="1001" cy="237" r="24"/><circle cx="1101" cy="237" r="24"/><path d="M990 237H1012M1001 226V248M1090 237H1112"/></g>
-<rect x="677" y="418" width="96" height="42" rx="21" fill="#619cc0"/><circle cx="750" cy="439" r="15" fill="#deeff5"/><path d="M806 427H870M806 444H846" stroke="#768da9" stroke-width="3"/>
+<g fill="none" stroke-width="3"><path d="M680 465L742 443L795 439H870" stroke="#9ce8ee"/><path d="M680 413L742 435L795 439H870" stroke="#ad9de2"/></g><circle cx="870" cy="439" r="7" fill="#deeff5"/>
 <g fill="none" stroke="#9ce8ee" stroke-width="3"><rect x="967" y="420" width="38" height="38" rx="5"/><rect x="1030" y="420" width="38" height="38" rx="5"/><rect x="1093" y="420" width="38" height="38" rx="5"/><path d="M978 440L985 447L996 431"/></g>
 </g></svg>

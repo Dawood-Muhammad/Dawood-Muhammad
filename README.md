@@ -3,88 +3,58 @@
 </a>
 
 <p align="center">
-  <a href="https://github.com/Dawood-Muhammad/human-causal-reality-engine"><img src="assets/nav-source.svg" height="40" alt="Explore HCRE"></a>
+  <a href="https://github.com/Dawood-Muhammad/human-causal-reality-engine"><img src="assets/nav-source.svg" height="40" alt="Explore HCRE source"></a>
   &nbsp;
-  <a href="https://github.com/Dawood-Muhammad/Dawood-Muhammad/blob/main/SELECTED-WORK.md"><img src="assets/nav-work.svg" height="40" alt="View selected work"></a>
+  <a href="SELECTED-WORK.md"><img src="assets/nav-work.svg" height="40" alt="Read project case studies"></a>
   &nbsp;
-  <a href="mailto:Dawoodman@outlook.com"><img src="assets/nav-contact.svg" height="40" alt="Let's talk"></a>
+  <a href="mailto:Dawoodman@outlook.com"><img src="assets/nav-contact.svg" height="40" alt="Contact Dawood"></a>
 </p>
 
-## I build the human side of intelligent systems.
+## Research software. AI evaluation. Human-centered products.
 
-I'm **Dawood Muhammad**, a Stony Brook psychology graduate building at the intersection of **neuroscience, AI evaluation, and product engineering**.
+I'm **Dawood Muhammad**, a Stony Brook psychology graduate who builds software around questions about evidence, cognition, and human control.
 
-My advantage is the combination: behavioral research, experience supporting people in care settings, and the ability to build the software. I can frame the human question, design the experiment, and turn it into a working tool.
-
-**Seven independent builds.** Python research engines, EEG evaluation, AI release gates, and interactive behavioral experiments. Each project connects a real question to something you can inspect.
+My background combines **behavioral research, direct care, and software engineering**. I turn a research question into an experiment, an analysis pipeline, and an interface someone can use.
 
 **Python · TypeScript · React · FastAPI · SQL · SPSS**
 
-### HCRE: an ambitious research idea, built end to end
+[**Explore my public code**](https://github.com/Dawood-Muhammad/human-causal-reality-engine) · [**Project case studies**](SELECTED-WORK.md) · [**LinkedIn**](https://www.linkedin.com/in/dawood-muhammad-135946328/) · [**Email**](mailto:Dawoodman@outlook.com)
 
-**[Human Causal Reality Engine](https://github.com/Dawood-Muhammad/human-causal-reality-engine)** is my flagship research workbench. It brings source evidence, analysis, and reproducible results into one local workspace.
+### Start here: Human Causal Reality Engine
 
-[![HCRE's working research dashboard with evidence, observations, analysis controls, and provenance.](assets/projects/hcre.jpg)](https://github.com/Dawood-Muhammad/human-causal-reality-engine)
+**A local research workbench for tracing evidence and replaying results.** I built the Python core, React dashboard, and verification workflow.
 
-**I designed and built the Python core, React dashboard, and verification workflow.** The engineering connects the whole journey:
+[![HCRE's configured local research dashboard showing source observations, analysis controls, and provenance.](assets/projects/hcre.jpg)](https://github.com/Dawood-Muhammad/human-causal-reality-engine#try-it)
 
-**Source evidence → Checked inputs → Analysis → Result bundle → Offline replay**
+**Source evidence → Checked inputs → Bounded analysis → Immutable result → Offline replay**
 
-Typed contracts keep the interfaces consistent. Immutable bundles preserve the complete run. Independent Python and JavaScript implementations check a shared contract. The result is a research system a reviewer can open, question, and reproduce.
+| What I built | Inspect the evidence |
+| --- | --- |
+| Typed inputs and analysis rules that reject unsupported requests | [Python analysis core](https://github.com/Dawood-Muhammad/human-causal-reality-engine/tree/main/src/hcre/offline) |
+| A research dashboard backed by a bounded local API | [Dashboard source and setup](https://github.com/Dawood-Muhammad/human-causal-reality-engine/tree/main/dashboard) |
+| Reproducible bundles and independent Python/JavaScript contract checks | [Tests](https://github.com/Dawood-Muhammad/human-causal-reality-engine/tree/main/tests) · [CI results](https://github.com/Dawood-Muhammad/human-causal-reality-engine/actions/workflows/ci.yml) · [JavaScript consumer](https://github.com/Dawood-Muhammad/human-causal-reality-engine/tree/main/consumers/javascript) |
 
-[**Explore the source ↗**](https://github.com/Dawood-Muhammad/human-causal-reality-engine) &nbsp; [**Run the example ↗**](https://github.com/Dawood-Muhammad/human-causal-reality-engine#try-it)
+[**Run the synthetic example**](https://github.com/Dawood-Muhammad/human-causal-reality-engine#try-it) · [**Review the engineering**](https://github.com/Dawood-Muhammad/human-causal-reality-engine#review-the-engineering)
 
-<sub>Active R&D. The workbench and fixed analyses are implemented. Causal prediction and independent scientific validation remain future milestones.</sub>
+<sub>Public source · MIT · Active R&D. The workbench and fixed analyses are implemented. Causal prediction and independent scientific validation remain future milestones.</sub>
 
-### A few more ways I turn questions into products
+### More questions I've turned into working tools
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="SELECTED-WORK.md#neural-intent-lab">Neural Intent Lab ↗</a></h3>
-<p><b>EEG models meet human control.</b></p>
-<a href="SELECTED-WORK.md#neural-intent-lab"><img src="assets/projects/neural-intent.svg" width="100%" alt="Neural Intent Lab: EEG evidence, uncertainty, policy checks, and human decisions."></a>
-<p>A Python EEG evaluation pipeline paired with a React decision sandbox. Every step from prediction to permission is an explicit, inspectable state.</p>
-<sub>Python · TypeScript · React · EEG evaluation</sub>
-</td>
-<td width="50%" valign="top">
-<h3><a href="SELECTED-WORK.md#equitybench">EquityBench ↗</a></h3>
-<p><b>An AI release decision you can replay.</b></p>
-<a href="SELECTED-WORK.md#equitybench"><img src="assets/projects/equitybench.png" width="100%" alt="EquityBench blocks a synthetic candidate release and explains the privacy and utility failures."></a>
-<p>A reproducible gate for comparing de-identification detectors. Separate privacy and utility budgets turn model evaluation into a clear release decision.</p>
-<sub>Python · AI evaluation · CLI / CI · Replay</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="SELECTED-WORK.md#shiftlens">ShiftLens ↗</a></h3>
-<p><b>Make the missing handoff visible.</b></p>
-<a href="SELECTED-WORK.md#shiftlens"><img src="assets/projects/shiftlens.png" width="100%" alt="ShiftLens shows an unresolved care-transition obligation, its owner, and its deadline."></a>
-<p>A care-transition review workspace that connects obligations, owners, deadlines, and evidence. Review history preserves the original audit through confirmation and undo.</p>
-<sub>React · TypeScript · FastAPI · SQLite</sub>
-</td>
-<td width="50%" valign="top">
-<h3><a href="SELECTED-WORK.md#cognitive-bias-lab">Cognitive Bias Lab ↗</a></h3>
-<p><b>Behavioral science you can step inside.</b></p>
-<a href="SELECTED-WORK.md#cognitive-bias-lab"><img src="assets/projects/cognitive-bias-overview.svg" width="100%" alt="Product overview of the four Cognitive Bias Lab task families."></a>
-<p>Four interactive tasks exploring anchors, framing, defaults, and rule testing. Versioned stimuli and delayed debriefs make experimental design part of the experience.</p>
-<sub>React · TypeScript · Experimental design</sub>
-</td>
-</tr>
-</table>
+These projects have **public case studies and private source**. Each case study explains the implementation and its limits.
 
-I also built **[Memory Distortion Studio](SELECTED-WORK.md#memory-distortion-studio)**, an observation-and-recall experience, and **[How to Show Up](SELECTED-WORK.md#how-to-show-up)**, a private tool for preparing a difficult conversation.
+| Project | What it demonstrates |
+| --- | --- |
+| [**Neural Intent Lab**](SELECTED-WORK.md#neural-intent-lab) | Participant-held-out EEG evaluation and explicit authorization before simulated actions. |
+| [**EquityBench**](SELECTED-WORK.md#equitybench) | Reproducible de-identification release checks with separate privacy and utility budgets. |
+| [**ShiftLens**](SELECTED-WORK.md#shiftlens) | Care-transition obligations, evidence, deadlines, and a review history that preserves the original audit. |
+| [**Cognitive Bias Lab**](SELECTED-WORK.md#cognitive-bias-lab) | Four interactive behavioral tasks with versioned stimuli, counterbalancing, and delayed debriefs. |
+| [**Memory Distortion Studio**](SELECTED-WORK.md#memory-distortion-studio) | An observation-and-recall experience with item-level correction and clear data controls. |
+| [**How to Show Up**](SELECTED-WORK.md#how-to-show-up) | A private conversation-preparation flow with an exact preview of what the author chooses to share. |
 
-[**See the full project gallery and the decisions behind each build ↗**](SELECTED-WORK.md)
+### The perspective behind the work
 
-<sub>Independent research and portfolio prototypes. Each case study explains its implementation, evidence, and current scope.</sub>
+My experience spans behavioral research at Stony Brook, direct behavioral support, and residential-program operations. Working with protocols, staff, families, and care records shapes how I design software: communicate uncertainty, make choices explicit, and preserve the evidence behind a decision.
 
-### A different route into engineering. A useful perspective.
+**Building a research tool, evaluating an AI system, or designing a product around people? [Let's talk.](mailto:Dawoodman@outlook.com)**
 
-My experience spans **behavioral research at Stony Brook**, direct behavioral support, and residential-program operations. I've worked with data, protocols, staff, families, and the practical demands of care.
-
-That background shapes the software: how uncertainty is communicated, when someone gets a choice, what a record needs to preserve, and whether the next step is clear. I bring that perspective to research and AI teams, together with the ability to build the system around it.
-
-**Have a research question that needs a real tool? [Let's build it.](mailto:Dawoodman@outlook.com)**
-
-[LinkedIn](https://www.linkedin.com/in/dawood-muhammad-135946328/) · [Project gallery](SELECTED-WORK.md) · [Still version of the artwork](assets/neural-profile.png)
+[LinkedIn](https://www.linkedin.com/in/dawood-muhammad-135946328/) · [Full project gallery](SELECTED-WORK.md) · [Still version of the artwork](assets/neural-profile.png)

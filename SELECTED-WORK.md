@@ -4,7 +4,27 @@
 
 [Back to my profile](https://github.com/Dawood-Muhammad) · [HCRE source](https://github.com/Dawood-Muhammad/human-causal-reality-engine) · [LinkedIn](https://www.linkedin.com/in/dawood-muhammad-135946328/) · [Contact](mailto:Dawoodman@outlook.com)
 
-I build across the full path from research question to usable product: experimental structure, analysis, system behavior, and the interface someone actually sees. These six projects sit alongside my public flagship, HCRE. Each case study shows what I built, the engineering decisions behind it, and what the current version demonstrates. The visuals include interface captures and system overviews. Demonstration data is synthetic.
+I build across the full path from research question to usable product: experimental structure, analysis, system behavior, and the interface someone actually sees. Each case study shows what I built, the engineering decisions behind it, and what the current version demonstrates.
+
+**Source availability:** HCRE is public under the MIT license. The six other projects have private source; the descriptions and images here are their public case studies. No hosted interactive demo is linked. Examples use synthetic data unless a project explicitly identifies a public dataset.
+
+[HCRE](#human-causal-reality-engine) · [Neural Intent Lab](#neural-intent-lab) · [EquityBench](#equitybench) · [ShiftLens](#shiftlens) · [Cognitive Bias Lab](#cognitive-bias-lab) · [Memory Distortion Studio](#memory-distortion-studio) · [How to Show Up](#how-to-show-up)
+
+## Human Causal Reality Engine
+
+**Trace the source, inspect the analysis, and replay the result.**
+
+![HCRE's configured local dashboard showing source observations, analysis controls, and provenance.](assets/projects/hcre.jpg)
+
+I built a local research workbench with a Python analysis core, a React dashboard, and a verification workflow. Typed contracts check the inputs before a fixed analysis runs. Immutable result bundles bind inputs, settings, and outputs so a reviewer can replay the computation offline.
+
+**What this build demonstrates:** explicit input requirements, provenance, grouped-development boundaries, non-overwriting publication, offline replay, and independent Python/JavaScript contract checks.
+
+**Inspect it:** [Public source](https://github.com/Dawood-Muhammad/human-causal-reality-engine) · [Runnable synthetic example](https://github.com/Dawood-Muhammad/human-causal-reality-engine#try-it) · [Engineering review map](https://github.com/Dawood-Muhammad/human-causal-reality-engine#review-the-engineering)
+
+**Scope:** the screenshot shows a configured public mouse CA1 source slice. Its measurement rows are not independent animals or experiments. The workbench and fixed analyses are implemented; causal prediction and independent scientific validation remain future milestones.
+
+`Python` `React` `TypeScript` `Pydantic` `Reproducible research`
 
 ## Neural Intent Lab
 
@@ -52,9 +72,9 @@ I built a review workspace for care-transition integration QA. It brings the obl
 
 **Make experimental design something people can experience.**
 
-![Product overview of Cognitive Bias Lab: anchoring, framing, defaults, and rule testing.](assets/projects/cognitive-bias-overview.svg)
+![Product overview of Cognitive Bias Lab: anchoring, framing, reference points, and rule testing.](assets/projects/cognitive-bias-overview.svg)
 
-I translated four behavioral task structures into an accessible browser experience: anchoring, framing, defaults, and rule testing. Versioned stimuli and deterministic counterbalancing keep the task logic inspectable. Visitors receive a delayed debrief grounded in their own responses.
+I translated four behavioral task structures into a browser experience: anchoring, framing, reference points, and rule testing. Versioned stimuli and deterministic counterbalancing keep the task logic inspectable. Visitors receive a delayed debrief grounded in their own responses.
 
 **What this build demonstrates:** experimental structure, accessible untimed controls, local response storage, exports, and a clear separation between participant records and synthetic teaching examples.
 
