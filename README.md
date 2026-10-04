@@ -1,60 +1,60 @@
-<a href="https://github.com/Dawood-Muhammad/Dawood-Muhammad/blob/main/SELECTED-WORK.md">
-  <img src="assets/neural-profile.gif" width="100%" alt="Dawood Muhammad. Human insight. Technical depth. An original 3D neural field rotates as light travels through its connections.">
-</a>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/masthead-mobile.png">
+  <img src="assets/masthead-desktop.png" width="100%" alt="Dawood Muhammad. Psychology, research, and software. Research software and human-centered products. New York.">
+</picture>
 
 <p align="center">
-  <a href="https://github.com/Dawood-Muhammad/human-causal-reality-engine"><img src="assets/nav-source.svg" height="40" alt="Explore HCRE source"></a>
-  &nbsp;
-  <a href="SELECTED-WORK.md"><img src="assets/nav-work.svg" height="40" alt="Read project case studies"></a>
-  &nbsp;
-  <a href="mailto:Dawoodman@outlook.com"><img src="assets/nav-contact.svg" height="40" alt="Contact Dawood"></a>
+  <a href="https://github.com/Dawood-Muhammad/human-causal-reality-engine">Code</a>
+  &nbsp; · &nbsp;
+  <a href="SELECTED-WORK.md">Work</a>
+  &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/dawood-muhammad-135946328/">LinkedIn</a>
+  &nbsp; · &nbsp;
+  <a href="mailto:Dawoodman@outlook.com">Contact</a>
 </p>
 
-## Research software. AI evaluation. Human-centered products.
+### I turn questions about people into working software.
 
-I'm **Dawood Muhammad**, a Stony Brook psychology graduate who builds software around questions about evidence, cognition, and human control.
+I'm a **Stony Brook psychology graduate** building research tools, AI evaluations, and interactive behavioral experiments. My experience in behavioral research and frontline care shapes the work: clear evidence, visible uncertainty, and meaningful choices for the person using it.
 
-My background combines **behavioral research, direct care, and software engineering**. I turn a research question into an experiment, an analysis pipeline, and an interface someone can use.
+<sub>PYTHON &nbsp; / &nbsp; TYPESCRIPT &nbsp; / &nbsp; REACT &nbsp; / &nbsp; FASTAPI &nbsp; / &nbsp; SQL &nbsp; / &nbsp; RESEARCH DESIGN</sub>
 
-**Python · TypeScript · React · FastAPI · SQL · SPSS**
+## Featured work
 
-[**Explore my public code**](https://github.com/Dawood-Muhammad/human-causal-reality-engine) · [**Project case studies**](SELECTED-WORK.md) · [**LinkedIn**](https://www.linkedin.com/in/dawood-muhammad-135946328/) · [**Email**](mailto:Dawoodman@outlook.com)
+### Human Causal Reality Engine
 
-### Start here: Human Causal Reality Engine
+A local research workbench that keeps **source evidence, analysis, and reproducible results** together. I built the Python core, React dashboard, and offline verification workflow.
 
-**A local research workbench for tracing evidence and replaying results.** I built the Python core, React dashboard, and verification workflow.
+<p align="center">
+  <a href="https://github.com/Dawood-Muhammad/human-causal-reality-engine">
+    <img src="assets/projects/hcre.jpg" width="680" alt="HCRE's configured local dashboard, showing a public mouse CA1 observation slice, evidence controls, and research gates marked Waiting.">
+  </a>
+</p>
 
-[![HCRE's configured local research dashboard showing source observations, analysis controls, and provenance.](assets/projects/hcre.jpg)](https://github.com/Dawood-Muhammad/human-causal-reality-engine#try-it)
+**[Explore the code ↗](https://github.com/Dawood-Muhammad/human-causal-reality-engine)** &nbsp; · &nbsp; [Run an example](https://github.com/Dawood-Muhammad/human-causal-reality-engine#try-it) &nbsp; · &nbsp; [Review the engineering](https://github.com/Dawood-Muhammad/human-causal-reality-engine#review-the-engineering) &nbsp; · &nbsp; [CI results](https://github.com/Dawood-Muhammad/human-causal-reality-engine/actions/workflows/ci.yml)
 
-**Source evidence → Checked inputs → Bounded analysis → Immutable result → Offline replay**
+<sub>Public source · MIT · Active R&D. Fixed analyses and replay are implemented; causal prediction and independent scientific validation remain future work. The screenshot's measurement rows are not independent animals or experiments.</sub>
 
-| What I built | Inspect the evidence |
-| --- | --- |
-| Typed inputs and analysis rules that reject unsupported requests | [Python analysis core](https://github.com/Dawood-Muhammad/human-causal-reality-engine/tree/main/src/hcre/offline) |
-| A research dashboard backed by a bounded local API | [Dashboard source and setup](https://github.com/Dawood-Muhammad/human-causal-reality-engine/tree/main/dashboard) |
-| Reproducible bundles and independent Python/JavaScript contract checks | [Tests](https://github.com/Dawood-Muhammad/human-causal-reality-engine/tree/main/tests) · [CI results](https://github.com/Dawood-Muhammad/human-causal-reality-engine/actions/workflows/ci.yml) · [JavaScript consumer](https://github.com/Dawood-Muhammad/human-causal-reality-engine/tree/main/consumers/javascript) |
+<br>
 
-[**Run the synthetic example**](https://github.com/Dawood-Muhammad/human-causal-reality-engine#try-it) · [**Review the engineering**](https://github.com/Dawood-Muhammad/human-causal-reality-engine#review-the-engineering)
+## More work
 
-<sub>Public source · MIT · Active R&D. The workbench and fixed analyses are implemented. Causal prediction and independent scientific validation remain future milestones.</sub>
+**[Neural Intent Lab ↗](SELECTED-WORK.md#neural-intent-lab)** &nbsp; `Python` `TypeScript`<br>
+EEG evaluation paired with a sandbox that separates a model's score from permission to act.
 
-### More questions I've turned into working tools
+**[EquityBench ↗](SELECTED-WORK.md#equitybench)** &nbsp; `Python` `AI evaluation`<br>
+Replayable de-identification checks with separate limits for privacy misses and useful text removed.
 
-These projects have **public case studies and private source**. Each case study explains the implementation and its limits.
+**[Cognitive Bias Lab ↗](SELECTED-WORK.md#cognitive-bias-lab)** &nbsp; `React` `Experimental design`<br>
+Four interactive behavioral tasks with transparent methods and a delayed debrief.
 
-| Project | What it demonstrates |
-| --- | --- |
-| [**Neural Intent Lab**](SELECTED-WORK.md#neural-intent-lab) | Participant-held-out EEG evaluation and explicit authorization before simulated actions. |
-| [**EquityBench**](SELECTED-WORK.md#equitybench) | Reproducible de-identification release checks with separate privacy and utility budgets. |
-| [**ShiftLens**](SELECTED-WORK.md#shiftlens) | Care-transition obligations, evidence, deadlines, and a review history that preserves the original audit. |
-| [**Cognitive Bias Lab**](SELECTED-WORK.md#cognitive-bias-lab) | Four interactive behavioral tasks with versioned stimuli, counterbalancing, and delayed debriefs. |
-| [**Memory Distortion Studio**](SELECTED-WORK.md#memory-distortion-studio) | An observation-and-recall experience with item-level correction and clear data controls. |
-| [**How to Show Up**](SELECTED-WORK.md#how-to-show-up) | A private conversation-preparation flow with an exact preview of what the author chooses to share. |
+<sub>These are public case studies of private-source prototypes. Their evidence and limitations are documented in the gallery.</sub>
 
-### The perspective behind the work
+**[View all seven projects ↗](SELECTED-WORK.md)**, including ShiftLens, Memory Distortion Studio, and How to Show Up.
 
-My experience spans behavioral research at Stony Brook, direct behavioral support, and residential-program operations. Working with protocols, staff, families, and care records shapes how I design software: communicate uncertainty, make choices explicit, and preserve the evidence behind a decision.
+<br>
 
-**Building a research tool, evaluating an AI system, or designing a product around people? [Let's talk.](mailto:Dawoodman@outlook.com)**
+---
 
-[LinkedIn](https://www.linkedin.com/in/dawood-muhammad-135946328/) · [Full project gallery](SELECTED-WORK.md) · [Still version of the artwork](assets/neural-profile.png)
+**Good research needs good tools.**<br>
+[Let's talk about what you're building.](mailto:Dawoodman@outlook.com)
