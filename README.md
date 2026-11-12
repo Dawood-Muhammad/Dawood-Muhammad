@@ -54,6 +54,27 @@ Four interactive behavioral tasks with transparent methods and a delayed debrief
 
 <br>
 
+
+## Reproducible AI behavior evaluations
+
+I am also finishing a set of **private research repositories** that evaluate language-model behavior with explicit methods, frozen evidence, and visible limits. They are not public products, and they are not completed. Source is private; the descriptions below follow those repositories' own documentation.
+
+**[llm-personality-reliability](https://github.com/Dawood-Muhammad/llm-personality-reliability)** &nbsp; `Python` `Psychometrics`<br>
+How consistent are LLM personality-test responses? Test-retest, alpha, and ICC across prompts, sampling settings, and models. Reliability here is consistency under a stated design, not a claim of model personality.
+
+**[assessment-scoring-assistant](https://github.com/Dawood-Muhammad/assessment-scoring-assistant)** &nbsp; `Python` `Assessment`<br>
+Inspect ratings, rubric anchors, and disagreements on synthetic vignettes. Research and education only — not for clinical use. A small helpfulness-judge pilot was unfavorable relative to a training-majority baseline.
+
+**[llm-cognitive-bias-audit](https://github.com/Dawood-Muhammad/llm-cognitive-bias-audit)** &nbsp; `Python` `Cognitive bias`<br>
+Reproducible judgment-task trials with effect sizes, exclusions, and visible limits. Recorded command-route outputs are not approved real-model acceptance (0 of 56 eligible).
+
+**[synthetic-case-note-checker](https://github.com/Dawood-Muhammad/synthetic-case-note-checker)** &nbsp; `Python` `Source-bound review`<br>
+Review public research statements against a pinned source, and check fabricated case notes offline. This is research software, not a clinical product.
+
+<sub>These repositories are private. The counts and limits above are taken from their own documentation; this profile does not add new results.</sub>
+
+<br>
+
 ---
 
 **Good research needs good tools.**<br>

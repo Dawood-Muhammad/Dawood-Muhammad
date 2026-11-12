@@ -113,3 +113,9 @@ I built a seven-step flow for preparing a support card before a difficult, non-e
 ---
 
 **Have a research question that needs a real tool? [Let's build it.](mailto:Dawoodman@outlook.com)**
+
+---
+
+## Reproducible AI behavior evaluations (private source)
+
+Four additional private repositories evaluate language-model behavior with explicit methods and recorded limits. They are research software in progress, not public products. See the brief on the [profile README](README.md#reproducible-ai-behavior-evaluations): [llm-personality-reliability](https://github.com/Dawood-Muhammad/llm-personality-reliability), [assessment-scoring-assistant](https://github.com/Dawood-Muhammad/assessment-scoring-assistant), [llm-cognitive-bias-audit](https://github.com/Dawood-Muhammad/llm-cognitive-bias-audit), and [synthetic-case-note-checker](https://github.com/Dawood-Muhammad/synthetic-case-note-checker). Counts and status belong in those repositories; this page does not add new results.
